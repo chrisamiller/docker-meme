@@ -2,7 +2,7 @@ FROM ubuntu:zesty
 
 MAINTAINER Chris Miller <c.a.miller@wustl.edu>
 
-LABEL Image for MEME version 4.12.0
+LABEL docker image for the MEME package (http://meme.ebi.edu.au/)
 
 #dependencies
 RUN apt-get -y update && apt-get -y --no-install-recommends install wget build-essential imagemagick libxml-simple-perl libxml-sax-expat-perl libxml-compile-soap-perl libxml-compile-wsdl11-perl libconfig-json-perl  libhtml-treebuilder-libxml-perl libhtml-template-perl libhtml-parser-perl zlib1g-dev
